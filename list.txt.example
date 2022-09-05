@@ -1,0 +1,9 @@
+# Format of each line (blank lines and lines starting with '# are ignored:
+#   REPO_URL COMMIT_SHA
+#
+# Replace PWD with the full path to where this repos is checked out.
+# Using HEAD makes testing alot easier.
+file://PWD/tmp/src/r1 HEAD
+file://PWD/tmp/src/r2 HEAD
+# You can also specify a particular commit.
+#file://PWD/tmp/src/r1 75818849b210d73f3b07500583a73dc730d10efc
